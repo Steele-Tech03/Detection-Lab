@@ -2,20 +2,20 @@
 
 ## Objective
 
-To design and implement a Cybersecurity Detection Homelab using VirtualBox as the hypervisor, hosting Windows 10 and Kali Linux virtual machines. This lab aims to simulate a realistic enterprise environment for practicing threat detection, network monitoring, and incident response techniques. By configuring and analyzing system logs, network traffic, and attack simulations, the lab enhances hands-on skills in identifying, investigating, and mitigating cybersecurity threats.
+To design and implement a Cybersecurity Detection Homelab using VirtualBox as the hypervisor, hosting Windows 10 and Kali Linux virtual machines. This lab aims to simulate a realistic enterprise environment for practicing threat detection, network monitoring, and incident response techniques. By configuring and analyzing system logs in the (SIEM), network traffic, and attack simulations, the lab enhances hands-on skills in identifying, investigating, and mitigating cybersecurity threats.
 
 ### Skills Learned
 
 - Setting up, configuring, and managing virtual machines using VirtualBox.
 - Installing and hardening Windows 10 and Kali Linux environments.
 - Creating and managing internal, bridged, and NAT networks for isolated testing.
-- Monitoring logs and system activity to detect malicious behavior.
+- Advanced understanding of SIEM concepts when monitoring logs and system activity to detect malicious behavior.
 - Practicing triage, containment, and remediation of simulated attacks.
 - Conducting controlled attacks from Kali Linux against Windows targets.
 - Using tools like Sysmon to identify anomalies.
 - Gaining hands-on experience with Windows PowerShell and Linux terminal commands.
 - Identifying and testing system weaknesses using open-source tools.
-- Forwarding and analyzing logs in platforms like Splunk.
+- Developing critical thinking and problem solving skills in Cybersecurity.
 
 ### Tools Used
 
@@ -25,6 +25,9 @@ To design and implement a Cybersecurity Detection Homelab using VirtualBox as th
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
+Here's a Network Diagram of what these machines should be doing
+<img width="761" height="504" alt="Diagram" src="https://github.com/user-attachments/assets/4e25dce8-197f-4e2d-92db-f287b745b2bb" />
+
 Step 1 - Download, Install and configure VirtualBox and Windows 10 and Kali Linux
 <img width="768" height="480" alt="Virtual Box" src="https://github.com/user-attachments/assets/fc8c20d5-54b7-49e9-b0d9-ab9d445c347d" />
 <img width="778" height="501" alt="image" src="https://github.com/user-attachments/assets/4ae97458-93ee-4f48-bdba-2a1997424589" />
@@ -39,10 +42,6 @@ Step 1 - Download, Install and configure VirtualBox and Windows 10 and Kali Linu
 - Step 3 - After configuring the VMs, we want to Ping the Linux machine from the Windows machine to ensure that they are communcating with each other, either through the NAT - Network Address Translation or the Internal Network.
   <img width="761" height="504" alt="Linux ping" src="https://github.com/user-attachments/assets/5a23ca81-e937-47e4-bbd5-b2d97ee5b772" />
 
-
-Example below.
-
-<img width="761" height="504" alt="Diagram" src="https://github.com/user-attachments/assets/27cc4611-f97c-4221-8a09-283a93429979" />
 
 
 
