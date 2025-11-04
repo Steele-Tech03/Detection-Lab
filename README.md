@@ -42,6 +42,7 @@ Step 1 - Download, Install and configure VirtualBox and Windows 10 and Kali Linu
 
 Example below.
 
-*Ref 1: Network Diagram*
+<img width="761" height="504" alt="Diagram" src="https://github.com/user-attachments/assets/27cc4611-f97c-4221-8a09-283a93429979" />
+
 
 
